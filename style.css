@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  background-color: black;
+  padding: 1rem;
+  color: aliceblue;
+  border-radius: 1rem;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  min-height: 20vh;
+  width: 80vh;
+  background-color: black;
+  color: white;
+  margin-top: 15rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+button {
+  width: 8rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 2rem;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 2rem;
+}
+
+button:hover {
+  color: aliceblue;
+  background-color: black;
+}
